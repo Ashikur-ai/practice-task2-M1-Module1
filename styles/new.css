@@ -1,0 +1,267 @@
+/* all required styles */
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+/* header section styles */
+header {
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.header-container {
+    float: right;
+}
+
+.header-title {
+    float: right;
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 216px 230px 0px 845px;
+    width: 525px;
+}
+
+.header-description {
+    float: right;
+    width: 494px;
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0px;
+    margin-right: 230px;
+
+}
+
+
+.header-btn {
+    display: block;
+    border-radius: 5px;
+    background: #F15B22;
+    margin: 575px 230px 0px 1190px;
+    border: none;
+    padding: 20px 20px;
+
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* failure section styles */
+.failure-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px;
+    
+}
+
+
+.failure-content {
+    width: 415px;
+}
+
+
+.failure-title {
+    color:  #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.failure-description {
+    color: var#444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0px;
+    }
+
+
+
+    /* plan section styles */
+    .plan-title {
+        color: #151414;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 55px;
+        }
+
+
+    .item-title {
+        color: #151414;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+    .item-description {
+        color:#737272;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+    .plan {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 150px;
+        gap: 100px;
+        text-align: center;
+    }
+
+
+    /* positive section style */
+    .positive-container {
+        background-image: url('../images/watch.png');
+        height: 300px;
+        background-repeat: no-repeat;
+        margin: 130px 230px;
+        border-radius: 8px;
+        
+    }
+
+
+    .positive-title {
+        color: #FFF;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 460px;
+        padding-top: 60px;
+        padding-left: 60px;
+    }
+
+
+    .positive-item {
+        background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+        background-repeat: no-repeat;
+        border-radius: 8px;
+    }
+
+
+    .btn-positive {
+        margin-left: 60px;
+        margin-top: 25px;
+        padding: 20px 36px;
+        border-radius: 5px;
+        background: #FFF;
+        border: none;
+
+        color: #F15B22;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 55px;
+    }
+
+
+    /* footer section styles */
+
+    footer {
+        background: #151414;
+    }
+
+    .footer-title {
+        color: #F8F8F8;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+    .footer-description {
+        color: #FFF;
+        margin-top: 25px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        width: 485px;
+    }
+
+
+    .social-icon img {
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+
+    .footer-sub-title {
+        color: #FFF;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 130px ;
+    }
+
+
+    #email {
+        background: #151414;
+        color: #F3F3F3;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 8px;
+        border: 1px solid #FFF;
+        padding: 20px;
+        margin: 30px 0px;
+    }
+
+
+ .btn-subscribe {
+        display: block;
+        margin-top: 25px;
+        padding: 20px 36px;
+        border-radius: 5px;
+        background: #FFF;
+        border: none;
+
+        color: #F15B22;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 55px;
+ }
